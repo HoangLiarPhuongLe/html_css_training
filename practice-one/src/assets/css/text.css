@@ -1,0 +1,17 @@
+/*-----------------------------------------*\
+  #TEXT CLASSES
+\*-----------------------------------------*/
+
+.text-primary {
+  font-family: var(--primary-font);
+}
+
+.text-dark {
+  color: var(--black-color);
+}
+.navbar-item {
+  font-weight: var(--fw-regular);
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,38 @@
+/*------------------------------------*\
+  #CSS VARIABLES
+\*------------------------------------*/
+
+:root {
+  --primary-font: "Abel";
+  --secondary-font: "Montserrat";
+  --black-color: #000;
+  --gray-color: #7d7d7d;
+  --brown-color: #ebcb80;
+  --orange-color: #e8b229;
+  --fw-regular: 400;
+  --fw-bold: 700;
+}
+/*-----------------------------------------*\
+  #GLOBAL ELEMENTS
+\*-----------------------------------------*/
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: var(--brown-color);
+}
+/*-----------------------------------------*\
+  #SET FONT FAMILY
+\*-----------------------------------------*/
+
+@font-face {
+  font-family: "Abel";
+  font-style: normal;
+  src: url("../fonts/Abel-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  src: url("../fonts/static/Montserrat-Regular.ttf") format("truetype");
+}
