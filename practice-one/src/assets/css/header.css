@@ -1,0 +1,17 @@
+.header-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  width: 100%;
+  height: 84px;
+  padding-right: 118px;
+  padding-left: 37px;
+}
+
+.header-section-navbar {
+  margin-top: 32px;
+  margin-bottom: 25px;
+}
