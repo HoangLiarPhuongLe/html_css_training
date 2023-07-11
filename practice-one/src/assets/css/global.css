@@ -3,16 +3,23 @@
 \*------------------------------------*/
 
 :root {
+  /* Font-Family */
   --primary-font: "Abel";
   --secondary-font: "Montserrat";
+
+  /* Colors */
   --black-color: #000;
   --white-color: #fff;
   --gray-color: #7d7d7d;
   --brown-color: #ebcb80;
   --orange-color: #e8b229;
+
+  /* Font-Size */
   --fz-primary: 18px;
   --fz-secondary: 16px;
   --fz-reaction: 12px;
+
+  /* Font-Weight */
   --fw-regular: 400;
   --fw-bold: 700;
 }
@@ -22,9 +29,7 @@
 a {
   text-decoration: none;
 }
-a:hover {
-  color: var(--brown-color);
-}
+
 /*-----------------------------------------*\
   #SET FONT FAMILY
 \*-----------------------------------------*/
