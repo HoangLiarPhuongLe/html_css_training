@@ -1,0 +1,33 @@
+/*-----------------------------------------*\
+  #TYPOGRAPHY ELEMENT
+\*-----------------------------------------*/
+
+a {
+  text-decoration: none;
+}
+
+/*-----------------------------------------*\
+  #TEXT CLASSES
+\*-----------------------------------------*/
+
+.section-title {
+  font-family: var(--secondary-font);
+  font-weight: var(--font-weight-bold);
+  font-size: 44px;
+  line-height: 48px;
+  letter-spacing: -1.6px;
+}
+
+.description {
+  font-family: var(--primary-font);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-base);
+  line-height: 24px;
+}
+
+.reaction {
+  font-family: var(--primary-font);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-xs);
+  line-height: 24px;
+}
