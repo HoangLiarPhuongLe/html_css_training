@@ -1,0 +1,26 @@
+/*------------------------------------*\
+  #CSS VARIABLES
+\*------------------------------------*/
+
+:root {
+  /* Font-Family */
+  --primary-font: "Abel";
+  --secondary-font: "Montserrat";
+
+  /* Colors */
+  --black-color: #000;
+  --white-color: #fff;
+  --gray-color: #7d7d7d;
+  --gray-bold-color: #4b4b4b;
+  --brown-color: #ebcb80;
+  --orange-color: #e8b229;
+
+  /* Font-Size */
+  --font-size-lg: 18px;
+  --font-size-base: 16px;
+  --font-size-xs: 12px;
+
+  /* Font-Weight */
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}

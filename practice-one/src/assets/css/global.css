@@ -2,24 +2,6 @@
   #CSS VARIABLES
 \*------------------------------------*/
 
-:root {
-  --primary-font: "Abel";
-  --secondary-font: "Montserrat";
-  --font-size-lg: 18px;
-  --font-size-base: 16px;
-  --font-size-xs: 12px;
-  --black-color: #000;
-  --white-color: #fff;
-  --gray-color: #7d7d7d;
-  --gray-bold-color: #4b4b4b;
-  --brown-color: #ebcb80;
-  --orange-color: #e8b229;
-  --font-size-lg: 18px;
-  --font-size-base: 16px;
-  --font-size-xs: 12px;
-  --font-weight-regular: 400;
-  --font-weight-bold: 700;
-}
 /*-----------------------------------------*\
   #GLOBAL ELEMENTS
 \*-----------------------------------------*/
