@@ -1,0 +1,11 @@
+/*-----------------------------------------*\
+  #TEXT CLASSES
+\*-----------------------------------------*/
+
+.text-primary {
+  font-family: var(--primary-font);
+}
+
+.text-dark {
+  color: var(--black-color);
+}
