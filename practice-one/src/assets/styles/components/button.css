@@ -1,0 +1,15 @@
+/*------------------------------------*\
+  #BUTTON
+\*------------------------------------*/
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  height: 48px;
+  font-family: var(--secondary-font);
+  font-weight: var(--fw-regular);
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
