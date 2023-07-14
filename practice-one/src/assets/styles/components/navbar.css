@@ -7,6 +7,11 @@
   flex-direction: row;
   align-items: center;
   gap: 35px;
+  text-transform: uppercase;
+}
+
+.navbar-header,
+.navbar-footer {
   font-family: var(--primary-font);
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-lg);
