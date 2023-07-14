@@ -1,14 +1,11 @@
-.header-section {
+.main-header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
-  padding-right: 118px;
-  padding-left: 37px;
 }
 
-.header-section-navbar {
+.header-menu {
   padding-top: 32px;
   padding-bottom: 25px;
 }
