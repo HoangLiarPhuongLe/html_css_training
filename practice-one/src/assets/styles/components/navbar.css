@@ -2,7 +2,7 @@
   #NAVBAR
 \*------------------------------------*/
 
-.navbar-menu {
+.menu {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -10,23 +10,15 @@
   text-transform: uppercase;
 }
 
-.navbar-header,
-.navbar-footer {
+.menu-item {
   font-family: var(--primary-font);
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-lg);
   line-height: 27px;
   letter-spacing: 1px;
-}
-
-.navbar-header {
   color: var(--gray-bold-color);
 }
 
-.navbar-footer {
-  color: var(--white-color);
-}
-
-.navbar-header:hover {
+.menu-item:hover {
   color: var(--orange-color);
 }
