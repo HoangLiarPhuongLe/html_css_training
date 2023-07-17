@@ -31,3 +31,19 @@ a {
   font-size: var(--font-size-xs);
   line-height: 24px;
 }
+
+/*-----------------------------------------*\
+  #SET FONT FAMILY
+\*-----------------------------------------*/
+
+@font-face {
+  font-family: "Abel";
+  font-style: normal;
+  src: url("../fonts/Abel-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  src: url("../fonts/static/Montserrat-Regular.ttf") format("truetype");
+}
