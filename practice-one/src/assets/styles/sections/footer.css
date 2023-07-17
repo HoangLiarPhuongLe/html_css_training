@@ -48,9 +48,19 @@
   gap: 54px;
 }
 
-.address .description {
+.address .limit-text {
   max-width: 133px;
   max-height: 77px;
+}
+
+.limit-text {
+  max-width: 370px;
+  max-height: 48px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
 }
 
 .socials {
