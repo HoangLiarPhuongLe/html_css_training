@@ -31,6 +31,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  max-width: 380px;
 }
 
 .item-title {
@@ -48,27 +49,21 @@
   gap: 54px;
 }
 
-.address .limit-text {
-  max-width: 133px;
-  max-height: 77px;
-}
-
-.limit-text {
-  max-width: 370px;
-  max-height: 48px;
-}
-
-.contact-info {
-  display: flex;
-  flex-direction: column;
+.address .item-size {
+  max-width: 163px;
 }
 
 .socials {
   display: flex;
   gap: 43px;
 }
+
 .social-icon {
   opacity: 0.5;
+}
+
+.socials .item-size {
+  max-width: 98px;
 }
 
 .footer-separator {
