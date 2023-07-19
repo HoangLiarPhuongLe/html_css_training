@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 50px;
+  width: 210px;
   height: 48px;
   font-family: var(--secondary-font);
   font-weight: var(--fw-regular);
