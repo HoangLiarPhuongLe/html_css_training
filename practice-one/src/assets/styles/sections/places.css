@@ -8,6 +8,7 @@
   justify-content: center;
   align-items: center;
   gap: 29px;
+  padding-top: 64px;
 }
 
 .places .menu {

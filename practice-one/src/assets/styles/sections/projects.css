@@ -1,0 +1,75 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 45px;
+}
+
+.projects-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 33px;
+}
+
+.projects-title .menu {
+  gap: 41px;
+}
+
+.projects-title .menu-item {
+  color: var(--gray-bold-color);
+}
+
+.projects-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  flex-wrap: wrap;
+}
+
+.projects-card-item {
+  display: flex;
+  flex-direction: column;
+  width: 262px;
+  height: 262px;
+  border-radius: 8px;
+  background-color: var(--white-color);
+  border: 1px solid var(--gray-light-color);
+  gap: 18px;
+}
+
+.card-bg {
+  width: 262px;
+  height: 200px;
+  border-radius: 8px 8px 0px 0px;
+  lightgray: 50%;
+}
+
+.reaction-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.reaction-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.reaction-item .reaction {
+  color: var(--gray-color);
+}
+
+.projects-card-item:hover {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
