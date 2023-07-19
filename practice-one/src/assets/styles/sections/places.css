@@ -1,0 +1,27 @@
+/*------------------------------------*\
+  #PLACES SECTION
+\*------------------------------------*/
+
+.places {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 29px;
+}
+
+.places .menu {
+  gap: 55px;
+}
+
+.places .menu-item {
+  color: var(--gray-bold-color);
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
