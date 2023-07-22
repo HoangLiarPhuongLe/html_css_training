@@ -3,11 +3,18 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding-left: 37px;
-  padding-right: 118px;
+  width: 100%;
 }
 
 .header-menu {
   padding-top: 32px;
   padding-bottom: 25px;
+  padding-right: 118px;
+}
+
+.header-logo {
+  width: 143px;
+  height: 84px;
+
+  padding-left: 37px;
 }
