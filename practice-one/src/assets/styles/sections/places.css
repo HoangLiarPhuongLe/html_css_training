@@ -11,6 +11,14 @@
   padding-top: 64px;
 }
 
+.places-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 .places .menu {
   gap: 55px;
 }
@@ -24,7 +32,7 @@
   color: var(--red-color);
 }
 
-.card {
+.places-body {
   display: flex;
   flex-direction: column;
   gap: 12px;
