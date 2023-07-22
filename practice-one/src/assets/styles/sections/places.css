@@ -17,12 +17,31 @@
 
 .places .menu-item {
   color: var(--gray-bold-color);
+  transition: color 0.3s;
+}
+
+.places .menu-item:hover {
+  color: var(--red-color);
 }
 
 .card {
   display: flex;
-  flex-direction: row;
-  gap: 24px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 12px;
   justify-content: center;
+  align-items: center;
+}
+
+.card-inline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.card-item {
+  width: 300px;
+  height: 300px;
 }
