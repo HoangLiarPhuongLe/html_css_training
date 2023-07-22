@@ -1,13 +1,15 @@
-.footer-background {
-  background-color: var(--black-color);
+.footer {
+  background: var(--black-color);
+  width: 100%;
+  padding-top: 105px;
+  padding-bottom: 91px;
 }
 
-.footer-content {
+.footer .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 105px;
-  padding-bottom: 91px;
+  justify-content: center;
 }
 
 .footer-list {

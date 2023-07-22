@@ -1,10 +1,13 @@
 .projects {
+  padding-top: 45px;
+}
+
+.projects .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 40px;
-  padding: 45px;
 }
 
 .projects-title {

@@ -1,11 +1,14 @@
 .portfolio {
+  padding-top: 66px;
+  padding-bottom: 71px;
+}
+
+.portfolio .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 54px;
-  padding-top: 66px;
-  padding-bottom: 71px;
 }
 
 .portfolio-items {

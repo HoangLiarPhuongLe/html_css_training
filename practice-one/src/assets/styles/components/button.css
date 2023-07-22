@@ -9,7 +9,7 @@
   width: 210px;
   height: 48px;
   font-family: var(--secondary-font);
-  font-weight: var(--fw-regular);
+  font-weight: var(--font-weight-regular);
   line-height: normal;
   letter-spacing: 1px;
   text-transform: uppercase;

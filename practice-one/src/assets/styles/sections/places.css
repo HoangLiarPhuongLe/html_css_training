@@ -3,12 +3,15 @@
 \*------------------------------------*/
 
 .places {
+  padding-top: 64px;
+}
+
+.places .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 29px;
-  padding-top: 64px;
 }
 
 .places-head {

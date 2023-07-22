@@ -1,8 +1,10 @@
-.main-header {
+.header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding-left: 37px;
+  padding-right: 118px;
 }
 
 .header-menu {
