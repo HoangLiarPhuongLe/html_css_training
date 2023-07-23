@@ -469,31 +469,31 @@
         <div class="container">
             <div class="footer-list">
                 <div class="footer-item">
-                    <h4 class="item-title">contact us</h4>
+                    <h3 class="item-title">contact us</h3>
                     <address class="address">
-                        <p class="description item-size">2300 WArbutus Dr Citrus Springs, FL 34434, USA</p>
-                        <div class="item-size">
+                        <p class="description ">2300 WArbutus Dr Citrus Springs, FL 34434, USA</p>
+                        <div>
                             <a class="description" href="tel:+2357938917938">+235 793-891-7938</a>
                             <a class="description" href="mailto:contact@hofmannui.net">contact@hofmannui.net</a>
                         </div>
                     </address>
                 </div>
                 <div class="footer-item">
-                    <h4 class="item-title">follow us</h4>
+                    <h3 class="item-title">follow us</h3>
                     <div class="socials">
                         <a href="javascript:void(0)">
-                            <img class="social-icon item-size" src="assets/images/icons/Pinterest.svg" alt="Pinterest"/>
+                            <img class="social-icon" src="assets/images/icons/Pinterest.svg" alt="Pinterest"/>
                         </a>
                         <a href="javascript:void(0)">
-                            <img class="social-icon item-size" src="assets/images/icons/twitter.svg" alt="Twitter"/>
+                            <img class="social-icon" src="assets/images/icons/twitter.svg" alt="Twitter"/>
                         </a>
                         <a href="javascript:void(0)">
-                            <img class="social-icon item-size" src="assets/images/icons/facebook.svg" alt="Facebook"/>
+                            <img class="social-icon" src="assets/images/icons/facebook.svg" alt="Facebook"/>
                         </a>
                     </div>
                 </div>
                 <div class="footer-item">
-                    <h4 class="item-title">about us</h4>
+                    <h3 class="item-title">about us</h3>
                     <p class="description">SmartWeb was made to help you quickly create beautiful layouts of responsive websites.</p>
                 </div>  
             </div>
@@ -524,13 +524,23 @@
                         </li>
                     </ul>
                 </nav>
-                <a href="javascript:void(0)">
-                    <img src="assets/images/icons/go-top-button.svg" alt="go top button"/> 
-                </a>
+                <button class="btn-go-top" type="button" id="goTopButton">
+                    <img class="img-btn-go-top" src="assets/images/icons/gotopbutton.svg" alt="gotopbutton"/> 
+                </button>
             </div>
         </div>   
     </footer>
     <!-- End Footer -->
+
+    <script>
+        document.getElementById('goTopButton').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+
 </body>
 
 </html>

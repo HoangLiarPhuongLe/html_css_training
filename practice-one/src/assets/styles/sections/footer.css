@@ -1,3 +1,7 @@
+/*------------------------------------*\
+  #FOOTER SECTION
+\*------------------------------------*/
+
 .footer {
   background: var(--black-color);
   width: 100%;
@@ -17,6 +21,7 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+
   color: var(--white-color);
 }
 
@@ -29,11 +34,15 @@
   color: inherit;
 }
 
+.footer-list .menu-item:hover {
+  color: var(--red-color);
+}
+
 .footer-item {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  max-width: 380px;
+  max-width: 350px;
 }
 
 .item-title {
@@ -51,8 +60,8 @@
   gap: 54px;
 }
 
-.address .item-size {
-  max-width: 163px;
+.address .description {
+  max-width: 121.835px;
 }
 
 .socials {
@@ -61,11 +70,10 @@
 }
 
 .social-icon {
+  display: block;
+  width: 24px;
+  height: 25px;
   opacity: 0.5;
-}
-
-.socials .item-size {
-  max-width: 98px;
 }
 
 .footer-separator {
@@ -75,4 +83,19 @@
   border-style: solid;
   margin-top: 42px;
   margin-bottom: 38px;
+}
+
+.btn-go-top {
+  display: block;
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+
+.img-btn-go-top {
+  position: absolute;
+  right: 1.2;
+  left: 0.9;
+  bottom: 1.2;
+  top: 0.1;
 }
