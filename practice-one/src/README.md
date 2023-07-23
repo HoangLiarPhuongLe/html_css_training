@@ -10,7 +10,7 @@
 
 ## Timeline
 
-- 2023/06/30 – 2023/07/11
+- 2023/06/30 – 2023/07/20
 
 ## Team Size
 
@@ -39,7 +39,7 @@
 - Check Pagespeed
 - Apply cross browser
 - Apply Parcel
-- Apply Github Actions & Vercel
+- Apply Vercel
 
 ## Folder Structure
 
@@ -74,5 +74,3 @@
 ```
 
 - Step 05: Open index.html
-
-
