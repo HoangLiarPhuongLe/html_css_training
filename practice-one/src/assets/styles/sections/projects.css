@@ -4,6 +4,7 @@
 
 .projects {
   padding-top: 45px;
+  padding-bottom: 49px;
 }
 
 .projects .container {
@@ -60,22 +61,6 @@
   height: 200px;
   border-radius: 8px 8px 0px 0px;
   lightgray: 50%;
-}
-
-.reaction-layout {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-
-.reaction-item {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 6px;
 }
 
 .reaction-item .reaction {

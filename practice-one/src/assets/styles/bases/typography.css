@@ -47,12 +47,5 @@ a {
   font-family: "Montserrat";
   font-weight: 400;
   font-style: normal;
-  src: url("../../fonts/static/Montserrat-Regular.ttf") format("truetype");
+  src: url("../../fonts/Montserrat-Regular.ttf") format("truetype");
 }
-
-/* @font-face {
-  font-family: "Montserrat";
-  font-weight: 400;
-  font-style: normal;
-  src: url("../../fonts/static/Montserrat-Bold.ttf") format("truetype");
-} */
