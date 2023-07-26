@@ -12,27 +12,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 40px;
 }
 
-.projects-title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 33px;
+.project-menu {
+  margin-top: 33px;
+  margin-bottom: 40px;
 }
 
-.projects-title .menu {
+.projects .menu {
   gap: 41px;
 }
 
-.projects-title .menu-item {
+.projects .menu-item {
   color: var(--gray-bold-color);
   transition: color 0.2s;
 }
 
-.projects-title .menu-item:hover {
+.projects .menu-item:hover {
   color: var(--orange-color);
 }
 

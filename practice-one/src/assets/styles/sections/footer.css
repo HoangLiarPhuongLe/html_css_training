@@ -19,9 +19,7 @@
 .footer-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   width: 100%;
-
   color: var(--white-color);
 }
 
@@ -38,11 +36,18 @@
   color: var(--red-color);
 }
 
-.footer-item {
+.footer-contact-us,
+.footer-follow-us,
+.footer-about-us {
   display: flex;
   flex-direction: column;
   gap: 24px;
   max-width: 350px;
+}
+
+.footer-follow-us {
+  margin-left: 119px;
+  margin-right: 155px;
 }
 
 .item-title {
@@ -77,12 +82,17 @@
 }
 
 .footer-separator {
-  width: 100%;
+  width: 1140px;
   height: 1px;
   background-color: var(--white-color);
   border-style: solid;
   margin-top: 42px;
   margin-bottom: 38px;
+}
+
+.footer-menu {
+  margin-left: 156px;
+  margin-right: 210px;
 }
 
 .btn-go-top {
