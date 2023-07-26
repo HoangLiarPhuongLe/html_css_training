@@ -56,7 +56,7 @@
 - Step 02: Change to branch feature/practice-one:
 
 ```
-    git checkout develop
+
     git checkout feature/practice-one
 
 ```
@@ -73,4 +73,14 @@
     cd pratice-one
 ```
 
-- Step 05: Open index.html
+- Step 05: Install packages
+
+```
+    npm install
+```
+
+- Step 06: Run
+
+```
+    npx parcel/index.html
+```

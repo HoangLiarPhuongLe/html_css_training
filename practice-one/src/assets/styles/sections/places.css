@@ -12,15 +12,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 29px;
 }
 
-.places-head {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+.places-menu {
+  margin-top: 20px;
+  margin-bottom: 29px;
 }
 
 .places .menu {
@@ -36,7 +32,7 @@
   color: var(--orange-color);
 }
 
-.places-body {
+.places-card {
   display: flex;
   flex-direction: column;
   gap: 12px;
