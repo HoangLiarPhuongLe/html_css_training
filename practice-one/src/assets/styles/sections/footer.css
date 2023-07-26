@@ -96,16 +96,7 @@
 }
 
 .btn-go-top {
-  display: block;
-  position: relative;
-  width: 36px;
-  height: 36px;
-}
-
-.img-btn-go-top {
-  position: absolute;
-  right: 1.2;
-  left: 0.9;
-  bottom: 1.2;
-  top: 0.1;
+  border: none;
+  cursor: pointer;
+  background: transparent;
 }
