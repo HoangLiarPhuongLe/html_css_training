@@ -138,7 +138,7 @@
 }
 
 .icon-white {
-  filter: invert(100%);
+  color: var(--white-color);
 }
 
 .card-rectangle-container:hover .info-card {

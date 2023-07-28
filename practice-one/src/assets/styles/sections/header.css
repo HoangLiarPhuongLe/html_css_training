@@ -2,12 +2,10 @@
   #HEADER SECTION
 \*------------------------------------*/
 
-.header {
+.main-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 37px;
-  padding-right: 118px;
 }
 
 .header-menu {

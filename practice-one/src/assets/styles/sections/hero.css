@@ -3,17 +3,20 @@
 \*------------------------------------*/
 
 .hero {
-  width: 100%;
   height: 585px;
   background-image: url("../../images/background/hero.png");
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  gap: 33px;
+  align-items: center;
   color: var(--white-color);
+}
+
+.hero .section-title {
+  color: var(--white-color);
+  margin-bottom: 33px;
 }
 
 .hero-description {
@@ -21,12 +24,15 @@
   font-weight: var(--font-weight-regular);
   font-size: 30px;
   line-height: 24px;
+
+  width: 555px;
 }
 
 .hero .btn {
-  outline: 0px solid;
+  margin-top: 32px;
   font-size: var(--font-size-base);
   background-color: var(--brown-color);
+  border: 0px solid var(--gray-dark-color);
   color: var(--black-color);
   transition: background-color 0.2s;
 }

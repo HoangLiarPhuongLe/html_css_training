@@ -16,6 +16,7 @@ a {
   font-size: 44px;
   line-height: 48px;
   letter-spacing: -1.6px;
+  color: var(--gray-bold-color);
 }
 
 .description {

@@ -2,7 +2,7 @@
   #FOOTER SECTION
 \*------------------------------------*/
 
-.footer {
+.main-footer {
   background: var(--black-color);
   width: 100%;
   padding-top: 105px;
@@ -33,7 +33,7 @@
 }
 
 .footer-list .menu-item:hover {
-  color: var(--red-color);
+  color: var(--brown-color);
 }
 
 .footer-contact-us,
@@ -45,9 +45,25 @@
   max-width: 350px;
 }
 
+.footer-contact-us {
+  margin-bottom: 42px;
+}
+
+.footer-follow-us {
+  margin-bottom: 81px;
+}
+
+.footer-list .footer-follow-us {
+  gap: 32px;
+}
+
 .footer-follow-us {
   margin-left: 119px;
   margin-right: 155px;
+}
+
+.footer-about-us {
+  margin-bottom: 66px;
 }
 
 .item-title {
@@ -86,16 +102,20 @@
   height: 1px;
   background-color: var(--white-color);
   border-style: solid;
-  margin-top: 42px;
-  margin-bottom: 38px;
+}
+
+.footer-copyright {
+  margin-top: 29px;
 }
 
 .footer-menu {
   margin-left: 156px;
   margin-right: 210px;
+  margin-top: 38px;
 }
 
 .btn-go-top {
+  margin-top: 24px;
   border: none;
   cursor: pointer;
   background: transparent;
