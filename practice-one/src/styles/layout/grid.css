@@ -1,0 +1,22 @@
+.container {
+  width: 240px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 596px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+  }
+}

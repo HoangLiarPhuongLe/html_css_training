@@ -13,9 +13,8 @@ a {
 .section-title {
   font-family: var(--secondary-font);
   font-weight: var(--font-weight-bold);
-  font-size: 44px;
-  line-height: 48px;
-  letter-spacing: -1.6px;
+  font-size: 20px;
+  line-height: normal;
   color: var(--gray-bold-color);
 }
 
@@ -23,13 +22,6 @@ a {
   font-family: var(--primary-font);
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-base);
-  line-height: 24px;
-}
-
-.reaction {
-  font-family: var(--primary-font);
-  font-weight: var(--font-weight-regular);
-  font-size: var(--font-size-xs);
   line-height: 24px;
 }
 
@@ -41,12 +33,26 @@ a {
   font-family: "Abel";
   font-weight: 400;
   font-style: normal;
-  src: url("../../fonts/Abel-Regular.ttf") format("truetype");
+  src: url("../../assets/fonts/Abel-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Montserrat";
   font-weight: 400;
   font-style: normal;
-  src: url("../../fonts/Montserrat-Regular.ttf") format("truetype");
+  src: url("../../assets/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .section-title {
+    font-size: 44px;
+    line-height: 48px;
+  }
 }

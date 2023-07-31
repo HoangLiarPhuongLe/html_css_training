@@ -1,0 +1,130 @@
+/*------------------------------------*\
+  #PLACES SECTION
+\*------------------------------------*/
+
+.places {
+  padding-top: 37px;
+  padding-bottom: 40px;
+}
+
+.places .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.places__menu {
+  width: 144px;
+  height: 24px;
+  border-radius: 48px;
+  border: 1px solid #4b4b4b;
+  margin-top: 18px;
+  margin-bottom: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--primary-font);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-xs);
+  line-height: 16px;
+  color: var(--gray-bold-color);
+}
+
+.places__card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.card__item {
+  width: 116px;
+  height: 116px;
+}
+
+.tab__menu {
+  display: none;
+  margin-top: 11px;
+  margin-bottom: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 53px;
+  text-transform: uppercase;
+}
+
+.menu__item {
+  font-family: var(--primary-font);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-xs);
+  line-height: 16px;
+  letter-spacing: 0.133px;
+  color: var(--gray-bold-color);
+}
+
+.menu__item:hover {
+  color: var(--orange-color);
+}
+
+@media (min-width: 768px) {
+  .places {
+    padding-top: 41px;
+    padding-bottom: 48px;
+  }
+
+  .places__card {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px 10px;
+  }
+
+  .card__item {
+    width: 192px;
+    height: 192px;
+  }
+
+  select {
+    display: none;
+  }
+
+  .tab__menu {
+    display: block;
+  }
+}
+
+@media (min-width: 1440px) {
+  .places {
+    padding-top: 67px;
+    padding-bottom: 85px;
+  }
+
+  .places__card {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px 24px;
+  }
+
+  .card__item {
+    width: 300px;
+    height: 300px;
+  }
+
+  select {
+    display: none;
+  }
+
+  .tab__menu {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 29px;
+  }
+
+  .menu {
+    gap: 55px;
+  }
+
+  .menu__item {
+    font-size: var(--font-size-lg);
+    line-height: 27px;
+    letter-spacing: 1px;
+  }
+}
