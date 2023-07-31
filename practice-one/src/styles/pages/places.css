@@ -13,7 +13,7 @@
   align-items: center;
 }
 
-.places__menu {
+.places__dropdown {
   width: 144px;
   height: 24px;
   border-radius: 48px;
@@ -40,7 +40,7 @@
   height: 116px;
 }
 
-.tab__menu {
+.places__tab {
   display: none;
   margin-top: 11px;
   margin-bottom: 20px;
@@ -87,7 +87,7 @@
     display: none;
   }
 
-  .tab__menu {
+  .places__tab {
     display: block;
   }
 }
@@ -112,7 +112,7 @@
     display: none;
   }
 
-  .tab__menu {
+  .places__tab {
     display: block;
     margin-top: 20px;
     margin-bottom: 29px;
