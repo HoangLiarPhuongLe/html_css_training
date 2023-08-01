@@ -1,0 +1,16 @@
+{
+  "name": "practice-two",
+  "version": "1.0.0",
+  "description": "- This document provides the requirement for HTML CSS practice two.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
