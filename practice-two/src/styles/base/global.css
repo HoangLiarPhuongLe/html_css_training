@@ -1,0 +1,21 @@
+/*-----------------------------------------*\
+  #GLOBAL CLASS
+\*-----------------------------------------*/
+.container {
+  width: 90.6%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 93.75%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 79.2%;
+    margin: 0 auto;
+  }
+}

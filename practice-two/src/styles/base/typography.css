@@ -1,0 +1,44 @@
+/*-----------------------------------------*\
+  #TYPOGRAPHY ELEMENT
+\*-----------------------------------------*/
+
+a {
+  text-decoration: none;
+}
+
+/*-----------------------------------------*\
+      #TEXT CLASSES
+\*-----------------------------------------*/
+
+.section-title {
+  font-family: var(--secondary-font);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-xl);
+  line-height: 40px;
+  letter-spacing: -0.5px;
+}
+
+.section-description {
+  font-family: var(--primary-font);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-xxs);
+  line-height: 16px;
+}
+
+/*-----------------------------------------*\
+    #SET FONT FAMILY
+\*-----------------------------------------*/
+
+@font-face {
+  font-family: "Abel";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../../assets/fonts/Abel-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../../assets/fonts/Montserrat-Regular.ttf") format("truetype");
+}

@@ -1,0 +1,17 @@
+/*------------------------------------*\
+  #DROPDOWN
+\*------------------------------------*/
+
+.dropdown {
+  width: 144px;
+  height: 24px;
+  border-radius: 48px;
+  border: 1px solid #4b4b4b;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--primary-font);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-xs);
+  line-height: 16px;
+  color: var(--gray-bold-color);
+}
