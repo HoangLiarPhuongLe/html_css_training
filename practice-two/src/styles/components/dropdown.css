@@ -3,15 +3,15 @@
 \*------------------------------------*/
 
 .dropdown {
-  width: 144px;
-  height: 24px;
-  border-radius: 48px;
-  border: 1px solid #4b4b4b;
+  width: 9rem;
+  height: 1.5rem;
+  border-radius: 3rem;
+  border: calc(1 / 16 * 1rem) solid #4b4b4b;
   text-align: center;
   text-transform: uppercase;
   font-family: var(--primary-font);
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-xs);
-  line-height: 16px;
+  line-height: 1rem;
   color: var(--gray-bold-color);
 }
