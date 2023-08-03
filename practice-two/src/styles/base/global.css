@@ -1,0 +1,14 @@
+/*-----------------------------------------*\
+  #GLOBAL CLASS
+\*-----------------------------------------*/
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 290px;
+  margin: 0 auto;
+}
