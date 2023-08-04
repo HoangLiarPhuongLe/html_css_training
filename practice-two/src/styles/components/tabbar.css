@@ -1,10 +1,11 @@
 /*------------------------------------*\
-  #TABMENU
+  #TABBAR
 \*------------------------------------*/
 
 .tab {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   gap: calc(53 / 16 * 1rem);
   text-transform: uppercase;
