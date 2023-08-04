@@ -26,6 +26,7 @@
   font-weight: 400;
   font-style: normal;
   src: url("../../assets/fonts/Abel-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -33,4 +34,5 @@
   font-weight: 400;
   font-style: normal;
   src: url("../../assets/fonts/Montserrat-Regular.ttf") format("truetype");
+  font-display: swap;
 }

@@ -131,8 +131,3 @@ a {
   text-decoration: none;
 }
 /* Customize reset */
-
-* {
-  padding: 0;
-  box-sizing: border-box;
-}
