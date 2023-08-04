@@ -1,0 +1,38 @@
+/*------------------------------------*\
+  #TABBAR
+\*------------------------------------*/
+
+.tab {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: calc(53 / 16 * 1rem);
+  text-transform: uppercase;
+}
+
+.tab__item {
+  font-family: var(--primary-font);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-xs);
+  line-height: 1rem;
+  letter-spacing: calc(0.133 / 16 * 1rem);
+  color: var(--gray-bold-color);
+}
+
+.tab__item:hover {
+  color: var(--orange-color);
+}
+
+@media (min-width: 768px) {
+  .tab {
+    display: flex;
+  }
+}
+
+@media (min-width: 1440px) {
+  .tab__item {
+    font-size: var(--font-size-lg);
+    line-height: calc(27 / 16 * 1rem);
+  }
+}

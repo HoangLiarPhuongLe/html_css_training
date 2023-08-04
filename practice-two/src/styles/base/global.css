@@ -2,6 +2,10 @@
   #GLOBAL CLASS
 \*-----------------------------------------*/
 
+html {
+  font-size: 16px;
+}
+
 * {
   padding: 0;
   box-sizing: border-box;
@@ -9,6 +13,18 @@
 }
 
 .container {
-  width: 290px;
+  width: calc(290 / 16 * 1rem);
   margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 45rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 71.25rem;
+  }
 }

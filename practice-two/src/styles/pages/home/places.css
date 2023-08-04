@@ -1,0 +1,96 @@
+/*------------------------------------*\
+  #PLACES SECTION
+\*------------------------------------*/
+
+.places {
+  padding-top: calc(37 / 16 * 1rem);
+  padding-bottom: 2.5rem;
+}
+
+.places .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.places .dropdown {
+  margin-top: 1.125rem;
+  margin-bottom: calc(25 / 16 * 1rem);
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.places img {
+  width: 100%;
+}
+
+.card__item {
+  width: 7.25rem;
+  height: 7.25rem;
+}
+
+@media (min-width: 768px) {
+  .places {
+    padding-top: calc(41 / 16 * 1rem);
+    padding-bottom: 3rem;
+  }
+
+  .card {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem 0.625rem;
+  }
+
+  .card__item {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .places .section-title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .places .dropdown {
+    display: none;
+  }
+
+  .places .tab {
+    margin-top: calc(11 / 16 * 1rem);
+    margin-bottom: 1.25rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .places {
+    padding-top: calc(67 / 16 * 1rem);
+    padding-bottom: calc(85 / 16 * 1rem);
+  }
+
+  .card {
+    gap: 0.75rem 1.5rem;
+  }
+
+  .card__item {
+    width: 18.75rem;
+    height: 18.75rem;
+  }
+
+  .places .section-title {
+    font-size: 2.75rem;
+    line-height: 3rem;
+  }
+
+  .places .tab {
+    margin-top: 1.25rem;
+    margin-bottom: calc(29 / 16 * 1rem);
+    gap: calc(55 / 16 * 1rem);
+  }
+
+  .places .tab__item {
+    letter-spacing: calc(1 / 16 * 1rem);
+  }
+}
