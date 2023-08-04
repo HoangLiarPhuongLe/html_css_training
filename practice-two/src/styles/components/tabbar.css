@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 .tab {
-  display: flex;
+  display: none;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -22,4 +22,17 @@
 
 .tab__item:hover {
   color: var(--orange-color);
+}
+
+@media (min-width: 768px) {
+  .tab {
+    display: flex;
+  }
+}
+
+@media (min-width: 1440px) {
+  .tab__item {
+    font-size: var(--font-size-lg);
+    line-height: calc(27 / 16 * 1rem);
+  }
 }

@@ -18,10 +18,6 @@
   margin-bottom: calc(25 / 16 * 1rem);
 }
 
-.places ul {
-  display: none;
-}
-
 .card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -62,10 +58,6 @@
     display: none;
   }
 
-  .places ul {
-    display: flex;
-  }
-
   .places .tab {
     margin-top: calc(11 / 16 * 1rem);
     margin-bottom: 1.25rem;
@@ -99,8 +91,6 @@
   }
 
   .places .tab__item {
-    font-size: var(--font-size-lg);
-    line-height: calc(27 / 16 * 1rem);
     letter-spacing: calc(1 / 16 * 1rem);
   }
 }
