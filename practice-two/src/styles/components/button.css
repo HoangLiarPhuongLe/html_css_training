@@ -1,0 +1,18 @@
+/*-----------------------------------------*\
+  #BUTTON
+\*-----------------------------------------*/
+
+.btn {
+  width: 7.5rem;
+  height: 2rem;
+  border-radius: 3.125rem;
+  border: 0.125rem solid var(--gray-bold-color);
+  text-align: center;
+  color: var(--gray-bold-color);
+  font-family: var(--secondary-font);
+  font-weight: var(--font-weight-regular);
+  line-height: normal;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}

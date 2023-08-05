@@ -16,15 +16,15 @@
   --orange-color: #e8b229;
 
   /* Font-Size */
-  --font-size-4xl: 36px;
-  --font-size-3xl: 32px;
-  --font-size-2xl: 24px;
-  --font-size-xl: 20px;
-  --font-size-lg: 18px;
-  --font-size-base: 16px;
-  --font-size-xs: 12px;
-  --font-size-xxs: 11px;
-  --font-size-3xs: 10px;
+  --font-size-4xl: 2.25rem;
+  --font-size-3xl: 2rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-xl: 1.25rem;
+  --font-size-lg: 1.125rem;
+  --font-size-base: 1rem;
+  --font-size-xs: 0.75rem;
+  --font-size-xxs: calc(11 / 16 * 1rem);
+  --font-size-3xs: 0.625rem;
 
   /* Font-Weight */
   --font-weight-regular: 400;
