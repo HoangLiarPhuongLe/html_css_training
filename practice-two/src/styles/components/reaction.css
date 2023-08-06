@@ -1,0 +1,46 @@
+/*------------------------------------*\
+  #REACTION
+\*------------------------------------*/
+
+.reaction-mobile,
+.reaction-item {
+  display: flex;
+}
+
+.reaction-desktop {
+  display: none;
+}
+
+.reaction-desktop,
+.reaction-item {
+  flex-direction: row;
+  align-items: center;
+}
+
+.reaction-mobile {
+  flex-direction: column;
+  gap: calc(7 / 16 * 1rem);
+}
+
+.reaction-item {
+  font-family: var(--primary-font);
+  font-weight: var(--font-weight-regular);
+  line-height: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .reaction-mobile {
+    display: none;
+  }
+
+  .reaction-desktop {
+    display: flex;
+    gap: calc(19 / 16 * 1rem);
+  }
+}
+
+@media (min-width: 1440px) {
+  .reaction-desktop {
+    gap: calc(33 / 16 * 1rem);
+  }
+}
