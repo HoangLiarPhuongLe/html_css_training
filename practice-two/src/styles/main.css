@@ -4,6 +4,9 @@
 @import "base/typography.css";
 @import "base/global.css";
 
+@import "components/dropdown.css";
+@import "components/tabbar.css";
 @import "components/button.css";
 
+@import "pages/home/places.css";
 @import "pages/home/products.css";
