@@ -12,7 +12,7 @@
   align-items: center;
 }
 
-.products__subtitle {
+.products-subtitle {
   text-align: center;
   color: var(--gray-bold-color);
   width: 15.375rem;
@@ -20,10 +20,10 @@
   margin-bottom: 20px;
 }
 
-.products__list {
+.products-list {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 2rem;
 }
 
 .product-item {
@@ -37,7 +37,7 @@
   border-radius: 100%;
 }
 
-.product-item__img {
+.product-item-img {
   width: 7.5rem;
   height: 7.5rem;
   border-radius: 7.5rem;
@@ -45,7 +45,7 @@
   position: relative;
 }
 
-.product-item__img::before {
+.product-item-img::before {
   content: "";
   position: absolute;
   z-index: 1;
@@ -59,23 +59,23 @@
   transition: opacity 0.1s;
 }
 
-.product-item__img:hover::before {
+.product-item-img:hover::before {
   opacity: 0.2;
 }
 
-.product-item__img:hover {
+.product-item-img:hover {
   border-color: var(--brown-color);
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.19);
 }
 
-.item__view-icon {
+.item-view-icon {
   position: absolute;
   width: 2.5rem;
   height: 1.375rem;
   display: none;
 }
 
-.item__view {
+.item-view {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -87,16 +87,16 @@
   transition: visibility 0.1s;
 }
 
-.product-item__img:hover .item__view {
+.product-item-img:hover .item-view {
   visibility: visible;
 }
 
-.view__img-small {
+.view-img-small {
   width: 1.25rem;
   height: calc(11 / 16 * 1rem);
 }
 
-.view__slots {
+.view-slots {
   color: var(--white-color);
   font-family: var(--primary-font);
   font-size: var(--font-size-base);
@@ -104,12 +104,12 @@
   line-height: 1.5rem;
 }
 
-.product-item__title {
+.product-item-title {
   margin-top: 1rem;
   margin-bottom: 1.25rem;
 }
 
-.item__name {
+.item-name {
   text-align: center;
   color: var(--gray-bold-color);
   text-transform: uppercase;
@@ -119,16 +119,16 @@
   line-height: 1.5rem;
 }
 
-.products__list .section-description {
+.products-list .section-description {
   text-align: center;
   width: 12rem;
 }
 
-.products__list .btn {
+.products-list .btn {
   background-color: var(--white-color);
 }
 
-.products__list .btn:hover {
+.products-list .btn:hover {
   background-color: var(--brown-color);
   border: 0rem;
 }
@@ -139,13 +139,13 @@
     letter-spacing: calc(-0.8 / 16 * 1rem);
   }
 
-  .products__subtitle {
+  .products-subtitle {
     width: calc(590 / 16 * 1rem);
     margin-top: calc(11 / 16 * 1rem);
     margin-bottom: 2.375rem;
   }
 
-  .products__list {
+  .products-list {
     flex-direction: row;
     gap: 1.625rem;
   }
@@ -154,22 +154,22 @@
     width: 10rem;
   }
 
-  .product-item__img {
+  .product-item-img {
     width: 10rem;
     height: 10rem;
     border-radius: 10rem;
   }
 
-  .product-item__title {
+  .product-item-title {
     margin-top: calc(23 / 16 * 1rem);
     height: 4.5rem;
   }
 
-  .products__list .btn {
+  .products-list .btn {
     height: 2.5rem;
   }
 
-  .item__view-icon {
+  .item-view-icon {
     display: block;
     left: 38%;
     top: 44%;
@@ -177,11 +177,11 @@
     transition: visibility 0.1s;
   }
 
-  .product-item__img:hover .item__view-icon {
+  .product-item-img:hover .item-view-icon {
     visibility: visible;
   }
 
-  .item__view {
+  .item-view {
     left: 25%;
     top: 70%;
   }
@@ -199,7 +199,7 @@
     line-height: 1.5rem;
   }
 
-  .products__subtitle {
+  .products-subtitle {
     margin-top: 1.25rem;
     margin-bottom: 4.125rem;
   }
@@ -208,37 +208,37 @@
     width: calc(262 / 16 * 1rem);
   }
 
-  .product-item__img {
+  .product-item-img {
     width: calc(262 / 16 * 1rem);
     height: calc(262 / 16 * 1rem);
     border-radius: calc(262 / 16 * 1rem);
   }
 
-  .product-item__title {
+  .product-item-title {
     margin-top: calc(29 / 16 * 1rem);
     margin-bottom: calc(31 / 16 * 1rem);
     height: 6.375rem;
   }
 
-  .item__name {
+  .item-name {
     font-size: var(--font-size-lg);
     line-height: 1.875rem;
   }
 
-  .products__list .section-description {
+  .products-list .section-description {
     width: calc(262 / 16 * 1rem);
   }
 
-  .products__list .btn {
+  .products-list .btn {
     width: 12.5rem;
     height: 3rem;
   }
 
-  .item__view-icon {
+  .item-view-icon {
     left: 45%;
   }
 
-  .item__view {
+  .item-view {
     left: 38%;
     top: 79%;
   }
