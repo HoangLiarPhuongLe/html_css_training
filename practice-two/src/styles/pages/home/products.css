@@ -15,9 +15,9 @@
 .products-subtitle {
   text-align: center;
   color: var(--gray-bold-color);
-  width: 15.375rem;
-  margin-top: 7px;
-  margin-bottom: 20px;
+  width: 15.25rem;
+  margin-top: calc(7 / 16 * 1rem);
+  margin-bottom: 1.25rem;
 }
 
 .products-list {
@@ -134,13 +134,17 @@
 }
 
 @media (min-width: 768px) {
+  .products {
+    padding-top: calc(40 / 16 * 1rem);
+    padding-bottom: 3rem;
+  }
   .products .section-title {
     font-size: var(--font-size-3xl);
     letter-spacing: calc(-0.8 / 16 * 1rem);
   }
 
   .products-subtitle {
-    width: calc(590 / 16 * 1rem);
+    width: calc(570 / 16 * 1rem);
     margin-top: calc(11 / 16 * 1rem);
     margin-bottom: 2.375rem;
   }
@@ -188,6 +192,10 @@
 }
 
 @media (min-width: 1440px) {
+  .products {
+    padding-top: calc(70 / 16 * 1rem);
+    padding-bottom: calc(75 / 16 * 1rem);
+  }
   .products .section-title {
     font-size: 2.75rem;
     line-height: 3rem;

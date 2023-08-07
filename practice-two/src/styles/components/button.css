@@ -16,3 +16,10 @@
   text-transform: uppercase;
   cursor: pointer;
 }
+
+@media (min-width: 1440px) {
+  .btn {
+    font-size: var(--font-size-base);
+    letter-spacing: calc(1 / 16 * 1rem);
+  }
+}
