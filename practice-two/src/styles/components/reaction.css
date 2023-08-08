@@ -2,22 +2,17 @@
   #REACTION
 \*------------------------------------*/
 
-.reaction-mobile,
+.reaction,
 .reaction-item {
   display: flex;
 }
 
-.reaction-desktop {
-  display: none;
-}
-
-.reaction-desktop,
 .reaction-item {
   flex-direction: row;
   align-items: center;
 }
 
-.reaction-mobile {
+.reaction {
   flex-direction: column;
   gap: calc(7 / 16 * 1rem);
 }
@@ -29,18 +24,14 @@
 }
 
 @media (min-width: 768px) {
-  .reaction-mobile {
-    display: none;
-  }
-
-  .reaction-desktop {
-    display: flex;
+  .reaction {
+    flex-direction: row;
     gap: calc(19 / 16 * 1rem);
   }
 }
 
 @media (min-width: 1440px) {
-  .reaction-desktop {
+  .reaction {
     gap: calc(33 / 16 * 1rem);
   }
 }
