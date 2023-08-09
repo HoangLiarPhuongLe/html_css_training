@@ -8,5 +8,8 @@
 @import "components/dropdown.css";
 @import "components/tabbar.css";
 @import "components/reaction.css";
+@import "components/button.css";
 
+@import "pages/home/places.css";
+@import "pages/home/products.css";
 @import "pages/home/portfolio.css";
