@@ -11,7 +11,7 @@
   text-transform: uppercase;
 }
 
-.tab__item {
+.tab-item {
   font-family: var(--primary-font);
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-xs);
@@ -20,7 +20,7 @@
   color: var(--gray-bold-color);
 }
 
-.tab__item:hover {
+.tab-item:hover {
   color: var(--orange-color);
 }
 
@@ -31,7 +31,7 @@
 }
 
 @media (min-width: 1440px) {
-  .tab__item {
+  .tab-item {
     font-size: var(--font-size-lg);
     line-height: calc(27 / 16 * 1rem);
   }
