@@ -1,0 +1,416 @@
+/*------------------------------------*\
+  #PORTFOLIO SECTION
+\*------------------------------------*/
+
+.portfolio {
+  padding-top: calc(29 / 16 * 1rem);
+  padding-bottom: calc(21 / 16 * 1rem);
+}
+
+.portfolio .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: calc(18 / 16 * 1rem);
+  margin-bottom: calc(25 / 16 * 1rem);
+}
+
+.portfolio-item-square {
+  width: calc(145 / 16 * 1rem);
+  height: calc(145 / 16 * 1rem);
+  position: relative;
+}
+
+.portfolio-item-rectangle {
+  width: calc(290 / 16 * 1rem);
+  height: calc(145 / 16 * 1rem);
+  position: relative;
+}
+
+.portfolio-item-square::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+
+.portfolio-item-square:hover::before {
+  opacity: 0.3;
+}
+
+.portfolio-item-rectangle::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+
+.portfolio-item-rectangle:hover::before {
+  opacity: 0.3;
+}
+
+.portfolio-item-rectangle .item-information {
+  position: absolute;
+  z-index: 2;
+  top: 9%;
+  left: 9%;
+  visibility: hidden;
+  transition: visibility 0.1s;
+}
+
+.portfolio-item-rectangle:hover .item-information {
+  visibility: visible;
+}
+
+.portfolio-item-rectangle .view-icon {
+  position: absolute;
+  z-index: 2;
+  left: 87%;
+  bottom: 76%;
+  visibility: hidden;
+  transition: visibility 0.1s;
+}
+
+.portfolio-item-rectangle:hover .view-icon {
+  visibility: visible;
+}
+
+.item-information .section-title {
+  color: var(--white-color);
+  font-size: var(--font-size-base);
+  line-height: 2rem;
+}
+
+.datetime {
+  font-family: var(--primary-font);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-regular);
+  color: var(--white-color);
+  line-height: 1rem;
+  letter-spacing: calc(0.8 / 16 * 1rem);
+}
+
+.item-information .rectangle {
+  margin-top: calc(18 / 16 * 1rem);
+  background-color: var(--white-color);
+  margin-bottom: calc(20 / 16 * 1rem);
+}
+
+.item-information .section-description {
+  color: var(--white-color);
+}
+
+.item-information .reaction {
+  display: none;
+}
+
+.portfolio-list .meadow {
+  order: 1;
+}
+
+.portfolio-list .stone {
+  order: 2;
+}
+
+.portfolio-list .blue-moutain {
+  order: 3;
+}
+
+.portfolio-list .valley {
+  order: 4;
+}
+
+.portfolio-list .natural {
+  order: 5;
+}
+
+.portfolio-list .snow-moutain {
+  order: 6;
+}
+
+.portfolio-list .metadata {
+  order: 7;
+  width: calc(290 / 16 * 1rem);
+  height: calc(145 / 16 * 1rem);
+  background-color: #f6f6f6;
+  padding-top: calc(17 / 16 * 1rem);
+  padding-left: 1.5rem;
+}
+
+.metadata-name {
+  font-family: var(--secondary-font);
+  color: var(--gray-bold-color);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  line-height: 2rem;
+  letter-spacing: (-0.5/16 * 1rem);
+}
+
+.metadata-author {
+  color: var(--gray-bold-color);
+  font-family: var(--primary-font);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-regular);
+  line-height: 1rem;
+  letter-spacing: calc(0.8 / 16 * 1rem);
+  text-transform: uppercase;
+  margin-bottom: 0.625rem;
+}
+
+.rectangle {
+  width: 0.875rem;
+  height: 0.125rem;
+  background-color: var(--gray-bold-color);
+  margin-bottom: calc(15 / 16 * 1rem);
+}
+
+.metadata-theme {
+  color: var(--gray-bold-color);
+  font-family: var(--secondary-font);
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-bold);
+  line-height: 1.75rem;
+  letter-spacing: calc(-0.5 / 16 * 1rem);
+}
+
+.pagination-item {
+  display: inline-block;
+  text-align: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 2rem;
+  color: var(--gray-bold-color);
+  background-color: var(--white-color);
+  font-family: var(--secondary-font);
+  font-weight: var(--font-weight-regular);
+  line-height: calc(24 / 16 * 1rem);
+  font-size: var(--font-size-xs);
+}
+
+.pagination-icon {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.7rem;
+}
+
+.pagination-item:hover {
+  color: var(--brown-color);
+  border-radius: 32px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 768px) {
+  .portfolio {
+    padding-top: 1.625rem;
+    padding-bottom: 2rem;
+  }
+
+  .portfolio .section-title {
+    font-size: var(--font-size-3xl);
+    letter-spacing: calc(-0.8 / 16 * 1rem);
+  }
+
+  .portfolio-list {
+    margin-top: calc(29 / 16 * 1rem);
+    margin-bottom: calc(41 / 16 * 1rem);
+  }
+
+  .portfolio-item-square {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .portfolio-item-rectangle {
+    width: 30rem;
+    height: 15rem;
+  }
+
+  .portfolio-list .blue-moutain {
+    order: 2;
+  }
+
+  .portfolio-list .snow-moutain {
+    order: 3;
+  }
+
+  .portfolio-list .stone {
+    order: 4;
+  }
+
+  .portfolio-list .valley {
+    order: 7;
+  }
+
+  .item-information .section-title {
+    font-size: calc(24 / 16 * 1rem);
+    letter-spacing: (-0.6/16 * 1rem);
+  }
+
+  .item-information .rectangle {
+    margin-top: calc(20 / 16 * 1rem);
+    background-color: var(--white-color);
+    margin-bottom: calc(24 / 16 * 1rem);
+    width: 1rem;
+    height: 0.25rem;
+  }
+
+  .item-information .reaction {
+    margin-top: 0.625rem;
+    display: flex;
+  }
+
+  .item-information .reaction-item {
+    color: var(--white-color);
+  }
+
+  .portfolio-item-rectangle .item-information {
+    left: 57%;
+    top: 15%;
+  }
+
+  .portfolio-list .metadata {
+    order: 6;
+    width: 15rem;
+    height: 15rem;
+    background-color: #f6f6f6;
+    padding-top: 2rem;
+    padding-left: 1.375rem;
+  }
+
+  .metadata-name {
+    font-size: var(--font-size-2xl);
+    letter-spacing: calc(-0.6 / 16 * 1rem);
+  }
+
+  .metadata-author {
+    margin-bottom: calc(29 / 16 * 1rem);
+  }
+
+  .rectangle {
+    width: 1rem;
+    height: 0.25rem;
+    margin-bottom: calc(20 / 16 * 1rem);
+  }
+
+  .metadata-theme {
+    font-size: calc(36 / 16 * 1rem);
+    line-height: 2rem;
+    letter-spacing: calc(1 / 16 * 1rem);
+  }
+}
+
+@media (min-width: 1440px) {
+  .portfolio {
+    padding-top: 4.125rem;
+    padding-bottom: calc(71 / 16 * 1rem);
+  }
+
+  .portfolio .section-title {
+    font-size: calc(44 / 16 * 1rem);
+    letter-spacing: calc(-1.6 / 16 * 1rem);
+  }
+
+  .portfolio-list {
+    margin-top: 3.375rem;
+    margin-bottom: calc(65 / 16 * 1rem);
+  }
+
+  .portfolio-item-square {
+    width: calc(380 / 16 * 1rem);
+    height: calc(380 / 16 * 1rem);
+  }
+
+  .portfolio-item-rectangle {
+    width: calc(760 / 16 * 1rem);
+    height: calc(380 / 16 * 1rem);
+  }
+
+  .portfolio-list .metadata {
+    width: calc(380 / 16 * 1rem);
+    height: calc(380 / 16 * 1rem);
+    background-color: var(--gray-bold-color);
+    padding-top: calc(60 / 16 * 1rem);
+    padding-left: calc(45 / 16 * 1rem);
+  }
+  .metadata-name,
+  .metadata-author,
+  .metadata-theme {
+    color: var(--white-color);
+  }
+
+  .metadata-name {
+    font-size: var(--font-size-3xl);
+    line-height: calc(42 / 16 * 1rem);
+    letter-spacing: calc(-0.8 / 16 * 1rem);
+  }
+
+  .metadata-author {
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    letter-spacing: calc(1 / 16 * 1rem);
+    margin-bottom: calc(31 / 16 * 1rem);
+  }
+
+  .metadata-theme {
+    font-size: 4rem;
+    line-height: 3.375rem;
+    letter-spacing: calc(-2 / 16 * 1rem);
+  }
+
+  .rectangle {
+    background-color: var(--white-color);
+    width: 2rem;
+    height: 0.375rem;
+    margin-bottom: 2rem;
+  }
+
+  .item-information .section-title {
+    font-size: 2rem;
+    line-height: 3.5rem;
+    letter-spacing: calc(-0.8 / 16 * 1rem);
+  }
+
+  .datetime {
+    font-size: calc(18 / 16 * 1rem);
+    line-height: calc(30 / 16 * 1rem);
+    letter-spacing: calc(1 / 16 * 1rem);
+  }
+
+  .item-information .rectangle {
+    margin-top: calc(31 / 16 * 1rem);
+    margin-bottom: calc(38 / 16 * 1rem);
+    width: 2rem;
+    height: 0.375rem;
+  }
+
+  .item-information .section-description {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .portfolio-item-rectangle .item-information {
+    left: 61%;
+  }
+
+  .pagination-item {
+    font-size: calc(18 / 16 * 1rem);
+  }
+}
