@@ -5,6 +5,7 @@
 .portfolio {
   padding-top: calc(29 / 16 * 1rem);
   padding-bottom: calc(21 / 16 * 1rem);
+  margin-top: calc(23 / 16 * 1rem);
 }
 
 .portfolio .container {
@@ -221,6 +222,7 @@
   .portfolio {
     padding-top: 1.625rem;
     padding-bottom: 2rem;
+    margin-top: calc(24 / 16 * 1rem);
   }
 
   .portfolio .section-title {
@@ -321,6 +323,7 @@
   .portfolio {
     padding-top: 4.125rem;
     padding-bottom: calc(71 / 16 * 1rem);
+    margin-top: 0rem;
   }
 
   .portfolio .section-title {
