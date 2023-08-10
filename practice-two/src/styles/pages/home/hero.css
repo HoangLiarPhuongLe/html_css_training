@@ -1,0 +1,74 @@
+/*------------------------------------*\
+  #HERO SECTION
+\*------------------------------------*/
+
+.hero {
+  width: 100%;
+  height: calc(312 / 16 * 1rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../../../assets/images/background.png") no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.hero-content {
+  margin-top: calc(45 / 16 * 1rem);
+  margin-bottom: calc(103.65 / 16 * 1rem);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: var(--white-color);
+}
+
+.hero-content .section-description {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.hero-content .btn {
+  width: 8.75rem;
+  background-color: var(--brown-color);
+}
+
+.hero-content .btn:hover {
+  background-color: var(--white-color);
+}
+
+@media (min-width: 768px) {
+  .hero {
+    height: calc(314 / 16 * 1rem);
+  }
+  .hero-content {
+    margin-top: calc(57 / 16 * 1rem);
+    margin-bottom: calc(89.6 / 16 * 1rem);
+  }
+
+  .hero-content .section-description {
+    margin-top: calc(26 / 16 * 1rem);
+    margin-bottom: calc(41 / 16 * 1rem);
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero {
+    height: calc(585 / 16 * 1rem);
+  }
+
+  .hero-content {
+    margin-top: calc(163 / 16 * 1rem);
+    margin-bottom: calc(192 / 16 * 1rem);
+  }
+
+  .hero-content .section-description {
+    margin-top: calc(34 / 16 * 1rem);
+    margin-bottom: 3rem;
+    font-size: calc(30 / 16 * 1rem);
+    line-height: 1.5rem;
+  }
+
+  .hero-content .btn {
+    width: calc(210 / 16 * 1rem);
+  }
+}
