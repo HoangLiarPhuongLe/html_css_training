@@ -13,6 +13,8 @@
 @import "layout/flex.css";
 @import "layout/header.css";
 @import "layout/navigation.css";
+@import "layout/grid.css";
+@import "layout/footer.css";
 
 @import "pages/home/hero.css";
 @import "pages/home/places.css";
