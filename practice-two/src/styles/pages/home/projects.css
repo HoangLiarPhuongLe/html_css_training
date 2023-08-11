@@ -5,7 +5,6 @@
 .projects {
   padding-top: 1.75rem;
   padding-bottom: calc(29.22 / 16 * 1rem);
-  margin-top: calc(24 / 16 * 1rem);
 }
 
 .projects .dropdown {

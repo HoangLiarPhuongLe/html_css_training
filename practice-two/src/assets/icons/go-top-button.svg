@@ -1,0 +1,11 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="go-top-button" clip-path="url(#clip0_1152_122)">
+<rect id="subscribe-button" width="23.9751" height="23.9697" rx="2.12742" fill="#EBCB80"/>
+<path id="go-to-top" d="M8.00298 12.9929L11.9979 8.99706L15.9929 12.9929" stroke="#4B4B4B" stroke-width="2" stroke-linecap="round"/>
+</g>
+<defs>
+<clipPath id="clip0_1152_122">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

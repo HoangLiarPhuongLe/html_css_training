@@ -11,6 +11,8 @@
 @import "components/button.css";
 
 @import "layout/flex.css";
+@import "layout/grid.css";
+@import "layout/footer.css";
 
 @import "pages/home/places.css";
 @import "pages/home/projects.css";
