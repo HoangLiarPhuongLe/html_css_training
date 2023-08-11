@@ -17,6 +17,21 @@
   line-height: 1rem;
 }
 
+@media (min-width: 768px) {
+  .section-title {
+    font-size: var(--font-size-3xl);
+    letter-spacing: calc(-0.8 / 16 * 1rem);
+  }
+}
+
+@media (min-width: 1440px) {
+  .section-title {
+    font-size: calc(44 / 16 * 1rem);
+    line-height: 3rem;
+    letter-spacing: calc(-1.6 / 16 * 1rem);
+  }
+}
+
 /*-----------------------------------------*\
     #SET FONT FAMILY
 \*-----------------------------------------*/

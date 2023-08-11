@@ -12,6 +12,7 @@
 
 @import "layout/flex.css";
 
+@import "pages/home/hero.css";
 @import "pages/home/places.css";
 @import "pages/home/projects.css";
 @import "pages/home/products.css";
