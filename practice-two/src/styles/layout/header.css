@@ -1,0 +1,41 @@
+/*------------------------------------*\
+  #HEADER
+\*------------------------------------*/
+
+.wrapper {
+  width: calc(285 / 16 * 1rem);
+  margin: 0 auto;
+  padding: 0.75rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header-logo {
+  width: calc(87 / 16 * 1rem);
+  height: calc(60 / 16 * 1rem);
+  margin-right: calc(191 / 16 * 1rem);
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: calc(677 / 16 * 1rem);
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    justify-content: initial;
+  }
+}
+
+@media (min-width: 1440px) {
+  .wrapper {
+    width: calc(1355 / 16 * 1rem);
+    padding: 0;
+  }
+
+  .header-logo {
+    width: calc(143 / 16 * 1rem);
+    height: calc(84 / 16 * 1rem);
+    margin-right: calc(537 / 16 * 1rem);
+  }
+}

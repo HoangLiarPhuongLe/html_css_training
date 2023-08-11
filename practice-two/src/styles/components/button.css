@@ -17,9 +17,16 @@
   cursor: pointer;
 }
 
+@media (min-width: 768px) {
+  .btn {
+    height: 2.5rem;
+  }
+}
+
 @media (min-width: 1440px) {
   .btn {
     font-size: var(--font-size-base);
     letter-spacing: calc(1 / 16 * 1rem);
+    height: 3rem;
   }
 }
