@@ -22,6 +22,7 @@
   position: relative;
   width: 8.75rem;
   height: calc(106.96 / 16 * 1rem);
+  cursor: pointer;
 }
 
 .project-item::before {
@@ -107,6 +108,10 @@
     border-radius: 0.5rem;
     background-color: var(--white-color);
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  .project-item:hover {
+    box-shadow: unset;
   }
 
   .project-item::before {

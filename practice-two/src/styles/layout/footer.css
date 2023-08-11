@@ -131,7 +131,7 @@
   }
 
   .footer-info {
-    margin-top: calc(20.51 / 16 * 1rem);
+    margin-top: calc(17 / 16 * 1rem);
     display: flex;
     gap: 0 3.875rem;
   }
@@ -173,11 +173,17 @@
     width: 100%;
   }
 
+  .copyright {
+    margin-top: calc(18 / 16 * 1rem);
+  }
+
   .footer-navbar {
+    margin-top: calc(13 / 16 * 1rem);
     gap: 1rem;
   }
 
   .go-top-button {
+    margin-top: calc(15 / 16 * 1rem);
     margin-left: calc(88 / 16 * 1rem);
   }
 }
@@ -185,6 +191,7 @@
 @media (min-width: 1440px) {
   .main-footer {
     height: calc(424 / 16 * 1rem);
+    background-color: var(--black-color);
   }
 
   .separator {
@@ -193,7 +200,7 @@
   }
 
   .footer-info {
-    margin-top: calc(105 / 16 * 1rem);
+    margin-top: calc(99 / 16 * 1rem);
     column-gap: calc(127 / 16 * 1rem);
   }
 
@@ -232,16 +239,20 @@
     height: calc(25 / 16 * 1rem);
   }
 
+  .footer-about {
+    margin-left: 0rem;
+  }
+
   .footer-copyright {
     gap: calc(156 / 16 * 1rem);
   }
 
   .copyright {
-    margin-top: calc(19 / 16 * 1rem);
+    margin-top: calc(38 / 16 * 1rem);
   }
 
   .footer-navbar {
-    margin-top: calc(28 / 16 * 1rem);
+    margin-top: calc(48 / 16 * 1rem);
     gap: calc(30.33 / 16 * 1rem);
   }
 
@@ -252,7 +263,7 @@
   }
 
   .go-top-button {
-    margin-top: calc(14 / 16 * 1rem);
+    margin-top: calc(32 / 16 * 1rem);
   }
 
   .btn-go-top {

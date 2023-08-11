@@ -43,6 +43,7 @@
   border-radius: 7.5rem;
   border: 0.25rem solid #e6e6e6;
   position: relative;
+  cursor: pointer;
 }
 
 .product-item-img::before {
