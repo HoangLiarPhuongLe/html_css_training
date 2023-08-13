@@ -7,7 +7,7 @@
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-xl);
   line-height: 2.5rem;
-  letter-spacing: calc(-0.5 / 16 * 1rem);
+  letter-spacing: calc(-0.5 * var(--px-to-rem));
 }
 
 .section-description {
@@ -19,20 +19,20 @@
 @media (min-width: 768px) {
   .section-title {
     font-size: var(--font-size-3xl);
-    letter-spacing: calc(-0.8 / 16 * 1rem);
+    letter-spacing: calc(-0.8 * var(--px-to-rem));
   }
 }
 
 @media (min-width: 1440px) {
   .section-title {
-    font-size: calc(44 / 16 * 1rem);
+    font-size: calc(44 * var(--px-to-rem));
     line-height: 3rem;
-    letter-spacing: calc(-1.6 / 16 * 1rem);
+    letter-spacing: calc(-1.6 * var(--px-to-rem));
   }
 
   .section-description {
     font-size: var(--font-size-base);
-    line-height: calc(24 / 16 * 1rem);
+    line-height: calc(24 * var(--px-to-rem));
   }
 }
 

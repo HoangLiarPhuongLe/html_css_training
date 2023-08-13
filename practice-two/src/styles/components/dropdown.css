@@ -2,16 +2,35 @@
   #DROPDOWN
 \*------------------------------------*/
 
-.dropdown {
+.select-box {
   width: 9rem;
   height: 1.5rem;
   border-radius: 3rem;
-  border: calc(1 / 16 * 1rem) solid #4b4b4b;
-  text-align: center;
+  border: calc(1 * var(--px-to-rem)) solid #4b4b4b;
+  padding-left: 1.8rem;
+  padding-top: 0.1rem;
   text-transform: uppercase;
   font-family: var(--primary-font);
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-xs);
   line-height: 1rem;
   color: var(--gray-bold-color);
+  appearance: none;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 88%;
+  top: 40%;
+  border-left: 0.25rem solid transparent;
+  border-right: 0.25rem solid transparent;
+  border-top: 0.25rem solid black;
+  pointer-events: none;
 }

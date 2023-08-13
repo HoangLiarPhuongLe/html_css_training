@@ -2,18 +2,20 @@
   #NAVBAR
 \*------------------------------------*/
 
-.navbar-menu {
+.navbar {
   position: absolute;
   top: 90%;
-  left: 3%;
+  left: 0;
   display: none;
   flex-direction: column;
-  width: calc(270 / 16 * 1rem);
+  width: 100%;
   background-color: var(--white-color);
+  padding-left: 2rem;
 }
 
-.navbar-menu.active {
+.navbar.active {
   display: flex;
+  gap: 0.5rem;
 }
 
 .navbar-icon {
@@ -24,17 +26,17 @@
   transform: rotate(90deg);
 }
 
-.navbar-menu-item {
+.navbar-item {
   font-family: var(--primary-font);
   font-weight: var(--font-weight-regular);
-  font-size: calc(14 / 16 * 1rem);
-  line-height: calc(23 / 16 * 1rem);
-  letter-spacing: calc(1 / 16 * 1rem);
+  font-size: calc(14 * var(--px-to-rem));
+  line-height: calc(23 * var(--px-to-rem));
+  letter-spacing: calc(1 * var(--px-to-rem));
   color: var(--gray-bold-color);
   text-transform: uppercase;
 }
 
-.navbar-menu-item:hover {
+.navbar-item:hover {
   color: var(--orange-color);
 }
 
@@ -43,26 +45,27 @@
     display: none;
   }
 
-  .navbar-menu {
+  .navbar {
     position: static;
     display: flex;
     flex-direction: row;
     width: auto;
-    gap: calc(10 / 16 * 1rem);
+    gap: calc(10 * var(--px-to-rem));
+    padding-left: 0rem;
   }
 
-  .navbar-menu-item {
-    line-height: calc(30 / 16 * 1rem);
+  .navbar-item {
+    line-height: calc(30 * var(--px-to-rem));
   }
 }
 
 @media (min-width: 1440px) {
-  .navbar-menu-item {
-    font-size: calc(18 / 16 * 1rem);
+  .navbar-item {
+    font-size: calc(18 * var(--px-to-rem));
   }
 
-  .navbar-menu {
-    gap: calc(32 / 16 * 1rem);
-    margin-top: calc(16 / 16 * 1rem);
+  .navbar {
+    gap: calc(32 * var(--px-to-rem));
+    margin-top: calc(16 * var(--px-to-rem));
   }
 }

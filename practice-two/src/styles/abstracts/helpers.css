@@ -5,7 +5,7 @@
 }
 
 @media (min-width: 768px) {
-  .desktop-hide {
+  .tablet-hide {
     display: none;
   }
 }

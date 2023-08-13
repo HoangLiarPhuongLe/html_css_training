@@ -2,6 +2,8 @@
   #CSS VARIABLES
 \*------------------------------------*/
 :root {
+  --root-font-size: 16;
+  --px-to-rem: calc(1rem / var(--root-font-size));
   /* Font-Family */
   --primary-font: "Abel";
   --secondary-font: "Montserrat";
@@ -23,7 +25,7 @@
   --font-size-lg: 1.125rem;
   --font-size-base: 1rem;
   --font-size-xs: 0.75rem;
-  --font-size-xxs: calc(11 / 16 * 1rem);
+  --font-size-xxs: calc(11 * var(--px-to-rem));
   --font-size-3xs: 0.625rem;
 
   /* Font-Weight */

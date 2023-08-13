@@ -2,7 +2,7 @@
   #PRODUCTS SECTION
 \*------------------------------------*/
 .products {
-  padding-top: calc(29 / 16 * 1rem);
+  padding-top: calc(29 * var(--px-to-rem));
   padding-bottom: 3.5rem;
 }
 
@@ -16,7 +16,7 @@
   text-align: center;
   color: var(--gray-bold-color);
   width: 15.25rem;
-  margin-top: calc(7 / 16 * 1rem);
+  margin-top: calc(7 * var(--px-to-rem));
   margin-bottom: 1.25rem;
 }
 
@@ -30,6 +30,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 10rem;
 }
 
 .products img {
@@ -80,9 +81,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: calc(5 / 16 * 1rem);
+  gap: calc(5 * var(--px-to-rem));
   position: absolute;
-  left: calc(21.25 / 16 * 1rem);
+  left: calc(21.25 * var(--px-to-rem));
   top: 45%;
   visibility: hidden;
   transition: visibility 0.1s;
@@ -94,7 +95,7 @@
 
 .view-img-small {
   width: 1.25rem;
-  height: calc(11 / 16 * 1rem);
+  height: calc(11 * var(--px-to-rem));
 }
 
 .view-slots {
@@ -105,9 +106,9 @@
   line-height: 1.5rem;
 }
 
-.product-item-title {
+.product-item-description {
   margin-top: 1rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .item-name {
@@ -122,7 +123,6 @@
 
 .products-list .section-description {
   text-align: center;
-  width: 12rem;
 }
 
 .products-list .btn {
@@ -136,17 +136,17 @@
 
 @media (min-width: 768px) {
   .products {
-    padding-top: calc(40 / 16 * 1rem);
+    padding-top: calc(40 * var(--px-to-rem));
     padding-bottom: 3rem;
   }
   .products .section-title {
     font-size: var(--font-size-3xl);
-    letter-spacing: calc(-0.8 / 16 * 1rem);
+    letter-spacing: calc(-0.8 * var(--px-to-rem));
   }
 
   .products-subtitle {
-    width: calc(570 / 16 * 1rem);
-    margin-top: calc(11 / 16 * 1rem);
+    width: calc(570 * var(--px-to-rem));
+    margin-top: calc(11 * var(--px-to-rem));
     margin-bottom: 2.375rem;
   }
 
@@ -155,18 +155,14 @@
     gap: 1.625rem;
   }
 
-  .product-item {
-    width: 10rem;
-  }
-
   .product-item-img {
     width: 10rem;
     height: 10rem;
     border-radius: 10rem;
   }
 
-  .product-item-title {
-    margin-top: calc(23 / 16 * 1rem);
+  .product-item-description {
+    margin-top: calc(23 * var(--px-to-rem));
     height: 4.5rem;
   }
 
@@ -194,13 +190,13 @@
 
 @media (min-width: 1440px) {
   .products {
-    padding-top: calc(70 / 16 * 1rem);
-    padding-bottom: calc(75 / 16 * 1rem);
+    padding-top: calc(70 * var(--px-to-rem));
+    padding-bottom: calc(75 * var(--px-to-rem));
   }
   .products .section-title {
     font-size: 2.75rem;
     line-height: 3rem;
-    letter-spacing: calc(-1.6 / 16 * 1rem);
+    letter-spacing: calc(-1.6 * var(--px-to-rem));
   }
 
   .products .section-description {
@@ -214,28 +210,24 @@
   }
 
   .product-item {
-    width: calc(262 / 16 * 1rem);
+    width: calc(262 * var(--px-to-rem));
   }
 
   .product-item-img {
-    width: calc(262 / 16 * 1rem);
-    height: calc(262 / 16 * 1rem);
-    border-radius: calc(262 / 16 * 1rem);
+    width: calc(262 * var(--px-to-rem));
+    height: calc(262 * var(--px-to-rem));
+    border-radius: calc(262 * var(--px-to-rem));
   }
 
-  .product-item-title {
-    margin-top: calc(29 / 16 * 1rem);
-    margin-bottom: calc(31 / 16 * 1rem);
+  .product-item-description {
+    margin-top: calc(29 * var(--px-to-rem));
+    margin-bottom: calc(31 * var(--px-to-rem));
     height: 6.375rem;
   }
 
   .item-name {
     font-size: var(--font-size-lg);
     line-height: 1.875rem;
-  }
-
-  .products-list .section-description {
-    width: calc(262 / 16 * 1rem);
   }
 
   .products-list .btn {

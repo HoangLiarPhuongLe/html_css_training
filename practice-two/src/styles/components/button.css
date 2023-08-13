@@ -26,7 +26,7 @@
 @media (min-width: 1440px) {
   .btn {
     font-size: var(--font-size-base);
-    letter-spacing: calc(1 / 16 * 1rem);
+    letter-spacing: calc(1 * var(--px-to-rem));
     height: 3rem;
   }
 }

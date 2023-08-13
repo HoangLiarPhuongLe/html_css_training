@@ -1,7 +1,7 @@
 const icon = document.querySelector('.navbar-icon');
-const menu = document.querySelector('.navbar-menu');
+const navbar = document.querySelector('.navbar');
 
 icon.addEventListener('click', function() {
-  menu.classList.toggle('active');
   icon.classList.toggle('active');
+  navbar.classList.toggle('active');
 });

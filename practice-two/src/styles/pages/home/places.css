@@ -3,19 +3,13 @@
 \*------------------------------------*/
 
 .places {
-  padding-top: calc(20 / 16 * 1rem);
+  padding-top: calc(20 * var(--px-to-rem));
   padding-bottom: 2.5rem;
-}
-
-.places .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .places .dropdown {
   margin-top: 1.125rem;
-  margin-bottom: calc(25 / 16 * 1rem);
+  margin-bottom: calc(25 * var(--px-to-rem));
 }
 
 .card {
@@ -28,14 +22,14 @@
   width: 100%;
 }
 
-.card__item {
+.card-item {
   width: 7.25rem;
   height: 7.25rem;
 }
 
 @media (min-width: 768px) {
   .places {
-    padding-top: calc(41 / 16 * 1rem);
+    padding-top: calc(41 * var(--px-to-rem));
     padding-bottom: 3rem;
   }
 
@@ -44,7 +38,7 @@
     gap: 0.5rem 0.625rem;
   }
 
-  .card__item {
+  .card-item {
     width: 12rem;
     height: 12rem;
   }
@@ -59,22 +53,22 @@
   }
 
   .places .tab {
-    margin-top: calc(11 / 16 * 1rem);
+    margin-top: calc(11 * var(--px-to-rem));
     margin-bottom: 1.25rem;
   }
 }
 
 @media (min-width: 1440px) {
   .places {
-    padding-top: calc(67 / 16 * 1rem);
-    padding-bottom: calc(85 / 16 * 1rem);
+    padding-top: calc(67 * var(--px-to-rem));
+    padding-bottom: calc(85 * var(--px-to-rem));
   }
 
   .card {
     gap: 0.75rem 1.5rem;
   }
 
-  .card__item {
+  .card-item {
     width: 18.75rem;
     height: 18.75rem;
   }
@@ -86,11 +80,11 @@
 
   .places .tab {
     margin-top: 1.25rem;
-    margin-bottom: calc(29 / 16 * 1rem);
+    margin-bottom: calc(29 * var(--px-to-rem));
     gap: calc(55 / 16 * 1rem);
   }
 
-  .places .tab__item {
-    letter-spacing: calc(1 / 16 * 1rem);
+  .places .tab-item {
+    letter-spacing: calc(1 * var(--px-to-rem));
   }
 }

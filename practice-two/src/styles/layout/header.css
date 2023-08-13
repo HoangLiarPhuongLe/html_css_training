@@ -2,25 +2,28 @@
   #HEADER
 \*------------------------------------*/
 
+.main-header {
+  position: relative;
+}
+
 .wrapper {
-  width: calc(285 / 16 * 1rem);
+  width: calc(285 * var(--px-to-rem));
   margin: 0 auto;
   padding: 0.75rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
 }
 
 .header-logo {
-  width: calc(87 / 16 * 1rem);
-  height: calc(60 / 16 * 1rem);
-  margin-right: calc(191 / 16 * 1rem);
+  width: calc(87 * var(--px-to-rem));
+  height: calc(60 * var(--px-to-rem));
+  margin-right: calc(191 * var(--px-to-rem));
 }
 
 @media (min-width: 768px) {
   .wrapper {
-    width: calc(677 / 16 * 1rem);
+    width: calc(677 * var(--px-to-rem));
     padding-top: 1rem;
     padding-bottom: 0.5rem;
     justify-content: initial;
@@ -29,14 +32,14 @@
 
 @media (min-width: 1440px) {
   .wrapper {
-    width: calc(1355 / 16 * 1rem);
+    width: calc(1355 * var(--px-to-rem));
     padding: 0;
   }
 
   .header-logo {
-    width: calc(143 / 16 * 1rem);
-    height: calc(84 / 16 * 1rem);
-    margin-right: calc(537 / 16 * 1rem);
+    width: calc(143 * var(--px-to-rem));
+    height: calc(84 * var(--px-to-rem));
+    margin-right: calc(537 * var(--px-to-rem));
   }
 
   .header-logo img {
