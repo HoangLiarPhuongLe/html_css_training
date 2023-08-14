@@ -76,6 +76,10 @@
   height: 100%;
 }
 
+.project-img img {
+  border-radius: calc(4 * var(--px-to-rem));
+}
+
 @media (min-width: 768px) {
   .projects {
     padding-top: 2rem;
@@ -110,6 +114,11 @@
     width: 13.75rem;
     height: 14rem;
     background-color: var(--white-color);
+  }
+
+  .project-img img {
+    border-radius: calc(8 * var(--px-to-rem)) calc(8 * var(--px-to-rem)) 0rem
+      0rem;
   }
 
   .project::before {

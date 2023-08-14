@@ -1,4 +1,4 @@
-const icon = document.querySelector('.navbar-icon');
+const icon = document.querySelector('.hamburger-icon');
 const navbar = document.querySelector('.navbar');
 
 icon.addEventListener('click', function() {

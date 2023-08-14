@@ -26,12 +26,6 @@
 
 .hero-content .btn {
   width: 8.75rem;
-  background-color: var(--brown-color);
-  border: unset;
-}
-
-.hero-content .btn:hover {
-  background-color: var(--white-color);
 }
 
 @media (min-width: 768px) {

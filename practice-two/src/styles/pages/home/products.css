@@ -95,7 +95,6 @@
 
 .view-img-small {
   width: 1.25rem;
-  height: calc(11 * var(--px-to-rem));
 }
 
 .view-slots {
@@ -123,15 +122,6 @@
 
 .products-list .section-description {
   text-align: center;
-}
-
-.products-list .btn {
-  background-color: var(--white-color);
-}
-
-.products-list .btn:hover {
-  background-color: var(--brown-color);
-  border: 0rem;
 }
 
 @media (min-width: 768px) {

@@ -18,11 +18,11 @@
   gap: 0.5rem;
 }
 
-.navbar-icon {
+.hamburger-icon {
   transition: transform 0.3s ease;
 }
 
-.navbar-icon.active {
+.hamburger-icon.active {
   transform: rotate(90deg);
 }
 
@@ -41,7 +41,7 @@
 }
 
 @media (min-width: 768px) {
-  .navbar-icon {
+  .hamburger-icon {
     display: none;
   }
 
