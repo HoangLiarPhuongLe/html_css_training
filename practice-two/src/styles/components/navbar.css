@@ -11,6 +11,7 @@
   width: 100%;
   background-color: var(--white-color);
   padding-left: 2rem;
+  z-index: 2;
 }
 
 .navbar.active {
